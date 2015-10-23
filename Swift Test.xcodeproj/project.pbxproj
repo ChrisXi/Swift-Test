@@ -14,6 +14,7 @@
 		AF028B131BDAE0B100C31D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF028B111BDAE0B100C31D3C /* LaunchScreen.storyboard */; };
 		AF028B1E1BDAE0B100C31D3C /* Swift_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF028B1D1BDAE0B100C31D3C /* Swift_TestTests.swift */; };
 		AF028B291BDAE0B100C31D3C /* Swift_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF028B281BDAE0B100C31D3C /* Swift_TestUITests.swift */; };
+		AF028B391BDAE17800C31D3C /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF028B381BDAE17800C31D3C /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF028B241BDAE0B100C31D3C /* Swift TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF028B281BDAE0B100C31D3C /* Swift_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TestUITests.swift; sourceTree = "<group>"; };
 		AF028B2A1BDAE0B100C31D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF028B381BDAE17800C31D3C /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AF028B0F1BDAE0B100C31D3C /* Assets.xcassets */,
 				AF028B111BDAE0B100C31D3C /* LaunchScreen.storyboard */,
 				AF028B141BDAE0B100C31D3C /* Info.plist */,
+				AF028B381BDAE17800C31D3C /* Second.storyboard */,
 			);
 			path = "Swift Test";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF028B391BDAE17800C31D3C /* Second.storyboard in Resources */,
 				AF028B131BDAE0B100C31D3C /* LaunchScreen.storyboard in Resources */,
 				AF028B101BDAE0B100C31D3C /* Assets.xcassets in Resources */,
 				AF028B0E1BDAE0B100C31D3C /* Main.storyboard in Resources */,
@@ -485,6 +489,7 @@
 				AF028B2F1BDAE0B100C31D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF028B301BDAE0B100C31D3C /* Build configuration list for PBXNativeTarget "Swift TestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				AF028B321BDAE0B100C31D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF028B331BDAE0B100C31D3C /* Build configuration list for PBXNativeTarget "Swift TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				AF028B351BDAE0B100C31D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
